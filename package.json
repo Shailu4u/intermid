@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shailu4u/intermid.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shailendra Kumar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Shailu4u/intermid/issues"
@@ -21,5 +22,8 @@
   "devDependencies": {
     "webpack": "^5.42.0",
     "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
