@@ -881,10 +881,16 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+.features .icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .features .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
-  margin: 5px 0 10px 60px;
+  margin: 5px 0 10px 5px;
 }
 
 .features .icon-box i {
